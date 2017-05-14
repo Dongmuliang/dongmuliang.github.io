@@ -1,14 +1,14 @@
 # Site settings
 title: DML Blog
-SEOTitle: 东木梁的博客 | Hux Blog
-header-img: img/home-bg.jpg
+SEOTitle: 东木梁的博客 | DML's Blog
+header-img: img/home-bg2.jpg
 email:   dliangfun@gmail.com
 description: ""
 keyword: "This is the description in the _config file"
 url: "https://dongmuliang.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
-
+# Valar Morghulis,Valar Dohaeris<br>一切皆归尘土,但凡人皆需侍奉"
 
 # SNS settings
 RSS: false
@@ -70,14 +70,14 @@ kramdown:
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-# sidebar-about-description: "写写代码，做做设计，<br>离开世界之前，一切都是过程"
-# sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "爱代码，爱生活<br>有责任感的好青年～"
+sidebar-avatar: /img/avatar-fdl-grey.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+featured-condition-size: 0              # A tag will be featured if the size of it is more than this condition value
 
 
 
@@ -90,37 +90,11 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "Su",
-        href: "http://su.gallery/"
-    },{
-        title: "乱序",
-        href: "http://mida.re/"
-    },{
-        title: "前端外刊评论",
-        href: "http://qianduan.guru/"
-    },{
-        title: "天镶的博客",
-        href: "http://lingyu.wang/"
-    },{
-        title: "Luke 的自留地",
-        href: "http://hmqk1995.github.io"
-    },{
-        title: "Ebn's Blog",
-        href: "http://ebnbin.com/"
-    },{
-        title: "SmdCn's Blog",
-        href: "http://blog.smdcn.net"
-    },{
-        title: "解旻的博客",
-        href: "http://xieminis.me/"
-    },{
-        title: "DHong Say",
-        href: "http://dhong.co"
-    },{
-        title: "尹峰以为",
-        href: "http://ingf.github.io/"
-    },{
-        title: "前端神盾局",
-        href: "http://wepiaofei.github.io/blog/"
+        title: "yieldnull",
+        href: "http://www.yieldnull.com/"
+    },
+    {
+        title: "Hux",
+        href: "http://huangxuan.me"
     }
 ]
