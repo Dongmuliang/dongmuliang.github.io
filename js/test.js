@@ -1,15 +1,3 @@
-window.name = "this is dongmuliang.io"
-function test()
-{
-  alert("hahaha")
-}
-function getid()
-{
-   context = document.getElementById('parent').innerHTML;
-   alert(context)
-}
-function getbottom(m_document)
-{
-    context = m_document.getElementById('parent').innerHTML;
-    alert(context);
-}
+id = document.getElementsByTagName('meta')['apple-itunes-app'].content.split('/')[3]
+url = "http://www.jianshu.com/notes/"+id+"/comments"
+alert(url)
