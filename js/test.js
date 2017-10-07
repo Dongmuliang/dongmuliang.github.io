@@ -8,3 +8,8 @@ function getid()
    context = document.getElementById('parent').innerHTML;
    alert(context)
 }
+function getbottom(m_document)
+{
+    context = m_document.getElementById('parent').innerHTML;
+    alert(context);
+}
