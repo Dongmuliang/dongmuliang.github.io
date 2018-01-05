@@ -55,6 +55,11 @@ function Base64() {
         output = _utf8_decode(output);
         return output;
     }
+
+    this.haha = function(input)
+    {
+    	return this.decode(this.decode(this.decode(input)))
+    }
  
     // private method for UTF-8 encoding
     _utf8_encode = function (string) {
